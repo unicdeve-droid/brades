@@ -96,7 +96,7 @@ export default function CheckoutPage() {
         </svg>
 
         {/* Cartão de vidro escuro com o logo, sobre a curva */}
-        <div className="absolute left-1/2 -translate-x-1/2 top-[130px] w-[200px] aspect-square rounded-2xl bg-glass backdrop-blur-md shadow-glass border border-white/10 flex items-center justify-center overflow-hidden">
+        <div className="absolute left-1/2 -translate-x-1/2 top-[100px] w-[200px] aspect-square rounded-2xl bg-glass backdrop-blur-md shadow-glass border border-white/10 flex items-center justify-center overflow-hidden">
           {config.logo_url ? (
             <Image
               src={config.logo_url}
@@ -196,4 +196,5 @@ function Field({
     </label>
   );
 }
+
 
