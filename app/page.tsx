@@ -154,7 +154,7 @@ export default function CheckoutPage() {
         </button>
 
         <div className="flex flex-col gap-3 pt-4 text-sm text-ink/70 leading-relaxed">
-          {config.paragraphs.map((p, i) => (
+          {config.paragraphs.slice(1).map((p, i) => (
             <p key={i}>{p}</p>
           ))}
         </div>
@@ -196,5 +196,6 @@ function Field({
     </label>
   );
 }
+
 
 
